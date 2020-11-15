@@ -24,7 +24,7 @@ metadata:
     {{- if .Values.psp.apparmorEnabled }}
     apparmor.security.beta.kubernetes.io/allowedProfileNames: "runtime/default"
     apparmor.security.beta.kubernetes.io/defaultProfileName: "runtime/default"
-    {{-end }}
+    {{- end }}
 spec:
   privileged: false
   allowPrivilegeEscalation: false
