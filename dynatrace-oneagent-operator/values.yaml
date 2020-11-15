@@ -48,7 +48,10 @@ oneagent:
   useImmutableImage: false
   agentVersion: ""
   customPullSecret: ""
-
+  
+psp:
+  apparmorEnabled: false
+  
 secret:
   autoCreate: true
   apiToken: ""
